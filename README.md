@@ -77,3 +77,22 @@ module tb_sync_ram;
     end
 
 endmodule
+
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/c343a51f-b6a0-4436-8855-8666c3efa1f6)
+
+ Signals:
+clk: Clock signal toggling regularly.
+
+write_enable: High (1) during writing.
+
+address: Address lines showing 0001, then 0010.
+
+write_data: First 10101010 (0xAA), then 10111011 (0xBB).
+
+read_data: Initially xxxxxxxx, then shows:
+
+10101010 → read from address 1
+
+10111011 → read from address 2
