@@ -80,7 +80,7 @@ endmodule
 
 OUTPUT:
 
-
+![Image](https://github.com/user-attachments/assets/5d7b185a-b4c7-4683-bce0-b3303e5567e5)
 
  Signals:
 clk: Clock signal toggling regularly.
